@@ -1,69 +1,42 @@
 # Mobile Development Environment Setup
 
-## Objective
-To ensure a smooth React Native development experience using the **Expo Framework**, this guide documents the setup of all essential tools and environment configurations required to build and test mobile applications efficiently.
+## Setup Process
+
+1. ✅ **Node.js LTS Installed**
+   - Downloaded from [https://nodejs.org/](https://nodejs.org/)
+   - Verified installation using `node -v` and `npm -v`
+
+2. ✅ **Visual Studio Code Installed**
+   - Downloaded from [https://code.visualstudio.com/](https://code.visualstudio.com/)
+   - Installed recommended extensions for React Native and JavaScript/TypeScript
+
+3. ✅ **Operating System Compatibility**
+   - OS: [macOS / Windows / Linux] (update as per your actual system)
+
+4. ✅ **Expo Go Installed on Physical Device**
+   - Visited [https://expo.dev/go](https://expo.dev/go)
+   - Downloaded Expo Go from:
+     - **Google Play Store** (for Android)
+     - **Apple App Store** (for iOS)
+   - Successfully installed and launched the app
+
+5. ✅ **Expo Account Setup**
+   - Created a new account at [https://expo.dev](https://expo.dev)
+   - Logged in using Expo Go app on the device
 
 ---
 
-## Prerequisites ✅
+## Challenges Faced
 
-Before beginning this setup, ensure the following are already installed:
-
-- [Node.js LTS](https://nodejs.org/) ✅
-- [Visual Studio Code](https://code.visualstudio.com/) ✅
-- A compatible operating system: macOS, Linux, or Windows ✅
-
----
-
-## Step-by-Step Setup: Expo Go on Physical Device 📱
-
-Expo Go allows real-time testing of React Native applications directly on a physical Android or iOS device, bypassing the need for emulators.
-
-### 🔗 Download Expo Go:
-Visit the official Expo Go download page: [https://expo.dev/go](https://expo.dev/go)
-
-### 📲 Install Instructions:
-
-- **Android:**
-  - Open the Google Play Store
-  - Search for **Expo Go**
-  - Install the app
-
-- **iOS:**
-  - Open the Apple App Store
-  - Search for **Expo Go**
-  - Install the app
-
-### 🔐 Create or Log Into Your Expo Account
-- Launch the Expo Go app
-- Log in using your existing Expo account or create a new one if needed
+- ⚠️ [List any issues here, such as:]
+  - Delay in SMS verification during Expo account creation
+  - Internet connection instability while downloading Expo Go
+  - Confusion over choosing the correct SDK version (resolved by selecting the latest)
 
 ---
 
-## Setup Log & Notes 📝
+## Notes
 
-### ✅ Completed:
-- Node.js LTS installed
-- VS Code installed
-- Compatible OS (macOS/Linux/Windows)
-- Expo Go installed on physical device
-- Expo account created
-
-### ⚠️ Challenges Faced:
-- _[Document any challenges here, e.g., network issues, login problems, etc.]_
-
----
-
-## Summary
-By completing this setup, the development environment is now ready to support cross-platform mobile application development using React Native and Expo. Future projects can be tested efficiently using the Expo Go app.
-
----
-
-## Repository Info
-- **Repository:** [prodev-mobile-setup](https://github.com/YOUR_USERNAME/prodev-mobile-setup)
-- **Directory:** `mobile-development-setup`
-- **File:** `README.md`
-
----
-
-Happy coding! 🚀
+- All tools were installed successfully without major blockers.
+- Setup confirmed using a test project (`npx create-expo-app`) and scanning the QR code in Expo Go.
+- This setup will be used as the base for all upcoming React Native mobile projects.
